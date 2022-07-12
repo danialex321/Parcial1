@@ -19,7 +19,8 @@
 
         function LowerString(event){
           event.preventDefault()
-          document.getElementById("txt_may").value =s_names
+          document.getElementById("txt_may").value = s_names.toString().toLowerCase()
+          alert(s_names.toLowerCase())
         }
   
 
