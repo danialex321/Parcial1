@@ -76,7 +76,7 @@
     let btn_muestra = document.getElementById("btn_muestra").addEventListener("click", muestraPokemon)
 
     function muestraPokemon(e){
-      e.preventDefault
+      e.preventDefault()
       document.getElementById("nombre_poke1").value = Pokemon1.nombre
       document.getElementById("nombre_poke2").value = Pokemon2.nombre
 
